@@ -1,0 +1,42 @@
+{
+  "games_processed": 7,
+  "matches_processed": 3,
+  "opponents": [
+    {
+      "name": "Chou Tien Chen",
+      "matches": 2,
+      "games": 4,
+      "chen_games_record": "4-0",
+      "observed_rallies": 149,
+      "total_shots": 1678,
+      "top_chen_reason": {
+        "label": "Winner",
+        "count": 29,
+        "pct": 36.2
+      },
+      "top_opponent_reason": {
+        "label": "Opponent Winner",
+        "count": 23,
+        "pct": 36.5
+      }
+    },
+    {
+      "name": "Viktor Axelsen",
+      "matches": 1,
+      "games": 3,
+      "chen_games_record": "1-2",
+      "observed_rallies": 107,
+      "total_shots": 910,
+      "top_chen_reason": {
+        "label": "Opponent Out",
+        "count": 19,
+        "pct": 44.2
+      },
+      "top_opponent_reason": {
+        "label": "Opponent Winner",
+        "count": 19,
+        "pct": 39.6
+      }
+    }
+  ]
+}

@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/addons/p5.sound.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css" />
-  <title>HWK 4 Portfolio | Interactive Kitchen Clocks</title>
+  <title>Jiufu Zhou | IMT 561 Portfolio</title>
 </head>
 
 <body>
@@ -15,19 +16,19 @@
     <header class="hero">
       <div>
         <p class="eyebrow">IMT 561 · Data Visualization: Design and Development</p>
-        <h1>Kitchen / Cooking Smartwatch Clock</h1>
+        <h1>Jiufu Zhou Portfolio</h1>
         <p class="hero-subtitle">
-          A portfolio documenting 10 hand-drawn sketch concepts, two coded p5.js clock prototypes,
-          and the final selected rice cooker clock.
+          A portfolio documenting my visual design process, interactive p5.js prototypes,
+          and narrative visualization work for IMT 561.
         </p>
       </div>
 
       <div class="hero-card">
-        <p class="hero-card-label">Final Direction</p>
-        <h2>Rice Cooker Clock</h2>
+        <p class="hero-card-label">Current Focus</p>
+        <h2>Narrative Visualization</h2>
         <p>
-          A cooking-centered smartwatch face that combines exact time, rice-cooking progress,
-          and AM/PM state in one appliance metaphor.
+          HWK 5 explores how Chen Long’s winning pressure changes by opponent through an interactive
+          badminton matchup visualization.
         </p>
       </div>
     </header>
@@ -36,20 +37,22 @@
       aria-pressed="false">Hide tabs</button>
 
     <nav id="main-tabs" class="tabs" role="tablist" aria-label="Main tabs">
-      <button type="button" class="tab-btn active" data-target="tab1" role="tab" aria-selected="true">01 About Me</button>
-      <button type="button" class="tab-btn" data-target="tab2" role="tab">02 Assignment Theme</button>
-      <button type="button" class="tab-btn" data-target="tab3" role="tab">03 Ten Sketches</button>
-      <button type="button" class="tab-btn" data-target="tab4" data-sketch="sk2" role="tab">04 Egg Timer</button>
-      <button type="button" class="tab-btn" data-target="tab5" data-sketch="sk3" role="tab">05 Rice Cooker</button>
-      <button type="button" class="tab-btn" data-target="tab6" role="tab">06 Final Choice</button>
+      <button type="button" class="tab-btn active" data-target="tab1" role="tab" aria-selected="true">
+        01 About Me
+      </button>
+      <button type="button" class="tab-btn" data-target="tab2" role="tab">
+        02 HWK 4
+      </button>
+      <button type="button" class="tab-btn" data-target="tab3" role="tab">
+        03 HWK 5
+      </button>
     </nav>
 
+    <!-- PAGE 1: ABOUT ME -->
     <section id="tab1" class="tab-content active" role="tabpanel">
       <div class="page-grid two-col">
         <section class="content-card profile-card">
           <div class="profile-photo">
-            <!-- Optional: replace with your own photo -->
-            <!-- <img src="images/profile.jpg" alt="Portrait of Jiufu Zhou" /> -->
             <span>Profile Photo</span>
           </div>
 
@@ -58,205 +61,139 @@
             <h2>Hi, I’m Jiufu Zhou.</h2>
             <p>
               I am a Master of Science in Information Management student at the University of Washington.
-              My interests include data visualization, information systems, machine learning, and interactive
-              design. In this portfolio, I document my HWK 4 process from early sketching to coded p5.js prototypes.
+              My interests include data visualization, information systems, machine learning, interactive
+              design, and AI-supported data analysis.
             </p>
             <p>
-              For this assignment, I chose a kitchen and cooking context because cooking is a daily activity where
-              time matters, but users often need information that is fast, glanceable, and easy to understand while
-              their hands are busy.
+              This portfolio shows my work for IMT 561. HWK 4 focuses on designing interactive clocks
+              through kitchen metaphors, while HWK 5 focuses on narrative visualization using badminton
+              match data.
             </p>
           </div>
         </section>
 
         <aside class="content-card">
-          <p class="section-kicker">Links to Replace Before Submission</p>
-          <h3>Submission Links</h3>
+          <p class="section-kicker">Submission Links</p>
+          <h3>Repository and Deployment</h3>
           <ul class="clean-list">
-            <li><strong>Public repo:</strong> <a href="#" target="_blank" rel="noopener noreferrer">TO ADD</a></li>
-            <li><strong>Deployed page:</strong> <a href="#" target="_blank" rel="noopener noreferrer">TO ADD</a></li>
-            <li><strong>Code files:</strong> sketches/sketch2-hwk4-1.js and sketches/sketch3-hwk4-2.js</li>
-          </ul>
+            <li>
+              <strong>Public repo:</strong>
+              <a href="https://github.com/JiufuZh/imt-561-homeworks" target="_blank" rel="noopener noreferrer">
+                https://github.com/JiufuZh/imt-561-homeworks
+              </a>
+            </li>
 
-          <div class="note-box">
-            <strong>Reminder:</strong> Do not submit a 127.0.0.1 Live Server link. Submit the public GitHub Pages link.
-          </div>
+            <li>
+              <strong>Deployed page:</strong>
+              <a href="https://jiufuzh.github.io/imt-561-homeworks/?tab=tab1" target="_blank" rel="noopener noreferrer">
+                https://jiufuzh.github.io/imt-561-homeworks/
+              </a>
+            </li>
+
+            <li>
+              <strong>HWK 4 code:</strong>
+              sketches/sketch2-hwk4-1.js and sketches/sketch3-hwk4-2.js
+            </li>
+
+            <li>
+              <strong>HWK 5 code:</strong>
+              sketches/sketch-hw5.js
+            </li>
+          </ul>
         </aside>
       </div>
     </section>
 
+    <!-- PAGE 2: HWK 4 -->
     <section id="tab2" class="tab-content" role="tabpanel">
       <section class="content-card">
-        <p class="section-kicker">Assignment Theme</p>
-        <h2>Designing Time for a Kitchen Smartwatch</h2>
+        <p class="section-kicker">HWK 4 — Interactive Clock Design</p>
+        <h2>Kitchen / Cooking Smartwatch Clock</h2>
         <p>
-          HWK 4 asks us to rethink how time can be represented beyond a standard analog or digital clock.
-          My context is a cooking-focused smartwatch clock. The watch belongs in the kitchen, where time is connected
-          to waiting, preparing ingredients, checking food readiness, managing several dishes, and remembering leftovers.
+          For HWK 4, I explored how time can be represented through a kitchen and cooking context.
+          Instead of creating a standard analog or digital clock, I used familiar cooking metaphors
+          such as eggs, rice cookers, steam, progress arcs, and appliance states.
         </p>
         <p>
-          My information visualization goal is to map abstract time into familiar kitchen signals such as steam,
-          rising rice, cracking eggs, progress arcs, heat levels, checklist completion, and urgency labels.
-          These visual metaphors make time feel more physical and more connected to cooking behavior.
+          The project included ten hand-drawn sketch concepts and two coded p5.js prototypes:
+          an Egg Crack Timer and a Rice Cooker Clock. The final selected direction was the Rice Cooker
+          Clock because it combined exact time, cooking progress, and AM/PM state in one coherent
+          appliance metaphor.
         </p>
       </section>
 
       <div class="principle-grid">
         <article class="mini-card">
           <h3>Context</h3>
-          <p>Kitchen and cooking routines, especially when the user needs quick information while cooking.</p>
+          <p>
+            Kitchen and cooking routines, especially moments when users need quick, glanceable time
+            information while cooking.
+          </p>
         </article>
-        <article class="mini-card">
-          <h3>Audience</h3>
-          <p>People who cook casually at home and want a playful but useful smartwatch timer or clock.</p>
-        </article>
+
         <article class="mini-card">
           <h3>Visual Encoding</h3>
-          <p>Time is encoded through height, progress, color, motion, labels, and appliance states.</p>
+          <p>
+            Time is encoded through rice height, steam motion, progress, color, labels, and appliance
+            states.
+          </p>
         </article>
+
         <article class="mini-card">
           <h3>Interaction</h3>
-          <p>Buttons, clicks, keyboard input, and hover feedback make the clocks feel responsive and alive.</p>
+          <p>
+            Clicks, buttons, keyboard input, and hover feedback make the clock prototypes responsive
+            and playful.
+          </p>
+        </article>
+
+        <article class="mini-card">
+          <h3>Final Choice</h3>
+          <p>
+            The Rice Cooker Clock was selected because it works as both a clock and a cooking-progress
+            visualization.
+          </p>
         </article>
       </div>
-    </section>
 
-    <section id="tab3" class="tab-content" role="tabpanel">
-      <section class="content-card">
-        <p class="section-kicker">Sketch Documentation</p>
-        <h2>Ten Hand-Drawn Sketch Concepts</h2>
-        <p>
-          I sketched 10 different kitchen smartwatch clock concepts. The goal was to explore multiple ways of making
-          time visible through cooking actions rather than simply reproducing a normal clock face.
-        </p>
-      </section>
-
-      <div class="sketch-grid">
-        <figure class="sketch-tile">
-          <img src="images/hwk4-sketch-01.png" alt="Sketch 01 Kitchen Dashboard Clock" />
-          <figcaption><strong>01 Kitchen Dashboard Clock</strong><br>Combines current time with recipe and grocery shortcuts.</figcaption>
-        </figure>
-
-        <figure class="sketch-tile selected-coded">
-          <img src="images/hwk4-sketch-02.png" alt="Sketch 02 Egg Crack Timer" />
-          <figcaption><strong>02 Egg Crack Timer</strong><br>Coded prototype: countdown shown through cracking and hatching.</figcaption>
-        </figure>
-
-        <figure class="sketch-tile">
-          <img src="images/hwk4-sketch-03.png" alt="Sketch 03 Food Timer Mode Selector" />
-          <figcaption><strong>03 Food Timer Mode Selector</strong><br>Switches between clock, general timer, and food timer modes.</figcaption>
-        </figure>
-
-        <figure class="sketch-tile">
-          <img src="images/hwk4-sketch-04.jpg" alt="Sketch 04 Kettle Tea Timer" />
-          <figcaption><strong>04 Kettle Tea Timer</strong><br>Shows steeping countdown and expected ready time.</figcaption>
-        </figure>
-
-        <figure class="sketch-tile">
-          <img src="images/hwk4-sketch-05.png" alt="Sketch 05 Multi-Dish Timer" />
-          <figcaption><strong>05 Multi-Dish Timer</strong><br>Tracks multiple dishes at once with separate timer tiles.</figcaption>
-        </figure>
-
-        <figure class="sketch-tile">
-          <img src="images/hwk4-sketch-06.png" alt="Sketch 06 Voice Input Recipe Clock" />
-          <figcaption><strong>06 Voice Input Recipe Clock</strong><br>Uses hands-free voice input for recipe notes and timing.</figcaption>
-        </figure>
-
-        <figure class="sketch-tile">
-          <img src="images/hwk4-sketch-07.png" alt="Sketch 07 Prep Checklist Timer" />
-          <figcaption><strong>07 Prep Checklist Timer</strong><br>Turns preparation time into ingredient checklist progress.</figcaption>
-        </figure>
-
-        <figure class="sketch-tile">
-          <img src="images/hwk4-sketch-08.png" alt="Sketch 08 Leftover Rescue Clock" />
-          <figcaption><strong>08 Leftover Rescue Clock</strong><br>Highlights leftovers and food urgency to reduce waste.</figcaption>
-        </figure>
-
-        <figure class="sketch-tile">
-          <img src="images/hwk4-sketch-09.png" alt="Sketch 09 Chef Utensil Clock" />
-          <figcaption><strong>09 Chef Utensil Clock</strong><br>Uses kitchen tools as the visual language of a clock.</figcaption>
-        </figure>
-
-        <figure class="sketch-tile selected-final">
-          <img src="images/hwk4-sketch-10.png" alt="Sketch 10 Rice Cooker Clock" />
-          <figcaption><strong>10 Rice Cooker Clock</strong><br>Final selected prototype: maps time to rice, steam, and heat state.</figcaption>
-        </figure>
-      </div>
-
-      <div class="legend-row">
-        <span class="legend coded">Coded prototype</span>
-        <span class="legend final">Final selected prototype</span>
-      </div>
-    </section>
-
-    <section id="tab4" class="tab-content" role="tabpanel">
       <div class="clock-layout">
         <section class="content-card clock-notes">
-          <p class="section-kicker">Coded Clock 1</p>
+          <p class="section-kicker">Coded Prototype 1</p>
           <h2>Egg Crack Timer</h2>
           <p>
-            The Egg Timer is designed for short kitchen countdowns such as boiling eggs, steeping tea, or timing
-            a quick cooking step. The remaining time is shown both as a numeric countdown and as a visual story:
-            the egg cracks near the end, then hatches when the timer reaches zero.
+            The Egg Timer is designed for short kitchen countdowns. The remaining time is shown as
+            a numeric countdown and as a visual story: the egg cracks near the end and hatches when
+            the timer reaches zero.
           </p>
 
-          <h3>Design Process</h3>
-          <p>
-            I chose an egg because it is familiar, playful, and directly connected to cooking. The arc gives a clear
-            progress structure, while the cracking animation creates urgency as the countdown approaches zero.
-            Buttons and keyboard input allow the user to start, pause, reset, and adjust the timer.
-          </p>
-
-          <h3>Visualization Principles</h3>
+          <h3>Design Principles</h3>
           <ul>
-            <li><strong>Hierarchy:</strong> large countdown text and central egg stage create a clear focus.</li>
-            <li><strong>Motion:</strong> shaking and hatching communicate the end state without needing extra text.</li>
-            <li><strong>Interaction:</strong> plus/minus buttons support custom timer length.</li>
+            <li><strong>Hierarchy:</strong> the countdown and central egg stage create a clear focus.</li>
+            <li><strong>Motion:</strong> shaking and cracking communicate urgency.</li>
+            <li><strong>Interaction:</strong> timer controls allow the user to start, pause, reset, and adjust time.</li>
           </ul>
-
-          <h3>Self-Reflection</h3>
-          <p>
-            This prototype works well as a playful countdown timer, but it is more limited than the Rice Cooker Clock
-            because it mainly represents one task. If I continued, I would add presets for soft-boiled, medium, and
-            hard-boiled eggs.
-          </p>
         </section>
 
         <section class="content-card canvas-card">
           <div id="sketch-container-sk2" class="sketch-container"></div>
         </section>
       </div>
-    </section>
 
-    <section id="tab5" class="tab-content" role="tabpanel">
       <div class="clock-layout">
         <section class="content-card clock-notes">
-          <p class="section-kicker">Coded Clock 2</p>
+          <p class="section-kicker">Coded Prototype 2</p>
           <h2>Rice Cooker Clock</h2>
           <p>
-            The Rice Cooker Clock is a kitchen smartwatch face that uses a rice cooker as the main metaphor.
-            It combines exact time, cooking progress, and AM/PM state in one appliance-like interface.
+            The Rice Cooker Clock uses a rice cooker as the main metaphor. The digital display keeps
+            exact time readable, the rice level shows progress, and the LOW/HIGH control turns AM/PM
+            into a cooking-related heat cue.
           </p>
 
-          <h3>Design Process</h3>
+          <h3>Why This Became the Final HWK 4 Direction</h3>
           <p>
-            I moved from a simple kitchen object sketch toward a more information-rich appliance clock. The rice
-            height became a progress visualization, the digital display keeps the exact time readable, and the
-            LOW/HIGH control turns AM/PM into a cooking-related heat cue.
-          </p>
-
-          <h3>Visualization Principles</h3>
-          <ul>
-            <li><strong>Position / height:</strong> rising rice level represents cooking or time progress.</li>
-            <li><strong>Color and labels:</strong> LOW/HIGH state helps communicate AM/PM status.</li>
-            <li><strong>Motion:</strong> steam and small animated details make the clock feel active.</li>
-            <li><strong>Readability:</strong> the digital time remains visible so the concept stays functional.</li>
-          </ul>
-
-          <h3>Interaction</h3>
-          <p>
-            The clock includes small interactions such as click-triggered steam or timer controls, making it feel
-            responsive while still matching the cooking context.
+            Compared with the Egg Timer, the Rice Cooker Clock has a stronger visualization structure.
+            It combines exact time, progress, state, and motion into one consistent kitchen appliance
+            metaphor.
           </p>
         </section>
 
@@ -266,76 +203,83 @@
       </div>
     </section>
 
-    <section id="tab6" class="tab-content" role="tabpanel">
+    <!-- PAGE 3: HWK 5 -->
+    <section id="tab3" class="tab-content" role="tabpanel">
       <section class="content-card">
-        <p class="section-kicker">Final Selection and Rationale</p>
-        <h2>Final Prototype: Rice Cooker Clock</h2>
+        <p class="section-kicker">HWK 5 — Narrative Visualization</p>
+        <h2>Winning Pressure by Opponent</h2>
         <p>
-          I implemented two sketches in code: the Egg Crack Timer and the Rice Cooker Clock. I selected the Rice Cooker
-          Clock as the final prototype because it feels more specific to daily cooking and has a stronger information
-          visualization structure.
+          HWK 5 asks us to communicate a clear insight from data through narrative visualization.
+          My final visualization uses badminton match data to show how Chen Long’s winning pressure
+          changes depending on the opponent.
+        </p>
+        <p>
+          The story is not only about who won. Instead, it explains how Chen Long won points, how the
+          selected opponent responded, and what technical shot patterns supported the matchup story.
         </p>
       </section>
 
-      <div class="decision-grid">
-        <article class="decision-card">
-          <h3>Why not the Egg Timer as final?</h3>
+      <div class="principle-grid">
+        <article class="mini-card">
+          <h3>Main Story</h3>
           <p>
-            The Egg Timer is clear and playful, but it mainly supports one countdown scenario. Its main data relationship
-            is remaining time to completion. This makes it effective, but narrower as a cooking smartwatch concept.
+            Chen Long does not beat every opponent in the same way. His dominant point-winning pattern
+            changes by matchup.
           </p>
         </article>
 
-        <article class="decision-card final-choice">
-          <h3>Why the Rice Cooker Clock?</h3>
+        <article class="mini-card">
+          <h3>Interaction</h3>
           <p>
-            The Rice Cooker Clock combines exact clock time, cooking progress, and AM/PM state in one consistent
-            kitchen appliance metaphor. The screen shows the current time, the rice level shows progress, and the
-            LOW/HIGH control turns AM/PM into a cooking-related heat cue.
+            Viewers can click an opponent to update the pressure signature, matchup detail, point-winning
+            reasons, and shot type mix.
           </p>
+        </article>
+
+        <article class="mini-card">
+          <h3>Genre</h3>
           <p>
-            It is not only a countdown. It works as a broader kitchen clock for checking time, food readiness, and
-            cooking status at a glance. Its visual mapping is stronger: rice height represents progress, color and
-            labels show AM/PM state, motion makes the scene feel alive, and the digital display keeps time readable.
+            This is an author-driven narrative infographic with one layer of user-driven interaction.
+          </p>
+        </article>
+
+        <article class="mini-card">
+          <h3>Encoding</h3>
+          <p>
+            Gold represents Chen Long; blue represents the opponent. Bar charts show point-winning
+            reasons, while the donut chart shows shot type mix.
           </p>
         </article>
       </div>
 
       <section class="content-card">
-        <h3>Iteration and Code History Evidence</h3>
-        <div class="commit-grid">
-          <div>
-            <h4>1. Rice progress window</h4>
-            <p>Static rice block → time-based rising rice level.</p>
-            <code>Add rice level progress visualization</code>
-          </div>
-          <div>
-            <h4>2. AM/PM heat mapping</h4>
-            <p>AM/PM text → LOW/HIGH rice cooker heat control.</p>
-            <code>Map AM PM state to rice cooker heat control</code>
-          </div>
-          <div>
-            <h4>3. Interaction update</h4>
-            <p>Static steam → click-triggered extra steam.</p>
-            <code>Add click interaction for extra steam</code>
-          </div>
-        </div>
+        <p class="section-kicker">Final Interactive Visualization</p>
+        <h2>Chen Long Matchup Network</h2>
+        <p>
+          Start with Chou Tien Chen, then compare the story with Viktor Axelsen. The visualization shows
+          whether Chen Long’s top pressure came from winners, opponent errors, or other scoring patterns.
+        </p>
+
+        <div id="hwk5-canvas-container" class="sketch-container hwk5-canvas-container"></div>
       </section>
 
       <section class="content-card">
-        <h3>Future Improvements</h3>
+        <h3>How to Read the Visualization</h3>
         <p>
-          If I continued improving the final artifact, I would make the design more responsive for smartwatch-sized
-          screens, add real cooking presets such as rice, soup, tea, and eggs, and improve accessibility by increasing
-          contrast and adding clearer labels for users who may not immediately understand the metaphor.
+          The left side presents the main pressure signature. The right side provides matchup details,
+          tactical profile, shot type profile, win rate, rallies, and match results. The lower supporting
+          charts explain how Chen and the opponent won points and what shot types shaped the matchup.
         </p>
       </section>
     </section>
 
   </main>
+
   <script src="sketches/sketch2-hwk4-1.js"></script>
   <script src="sketches/sketch3-hwk4-2.js"></script>
+  <script src="sketches/sketch-hw5.js"></script>
   <script src="script.js"></script>
 
 </body>
+
 </html>

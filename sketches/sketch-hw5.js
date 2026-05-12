@@ -5,9 +5,9 @@ let playerImgs = {};
 let particles = [];
 
 const PLAYER_IMAGE_PATHS = {
-  chen_long: "images/hwk5/chen_long.png",
-  viktor_axelsen: "images/hwk5/viktor_axelsen.png",
-  chou_tien_chen: "images/hwk5/chou_tien_chen.png"
+  chen_long: "images/hw5/chen_long.png",
+  viktor_axelsen: "images/hw5/viktor_axelsen.png",
+  chou_tien_chen: "images/hw5/chou_tien_chen.png"
 };
 
 const PLAYER_IMAGE_ALIASES = {
@@ -58,7 +58,7 @@ const L = {
 };
 
 function preload() {
-  data = loadJSON("data/chen_long_network_data.json");
+  data = loadJSON("data/HW5/final data/chen_long_network_data.json");
   for (const key in PLAYER_IMAGE_PATHS) {
     playerImgs[key] = loadImage(
       PLAYER_IMAGE_PATHS[key],
