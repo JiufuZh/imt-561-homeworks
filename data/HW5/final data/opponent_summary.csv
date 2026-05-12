@@ -1,0 +1,3 @@
+﻿id,name,matches,games,chenGamesWon,opponentGamesWon,chenPoints,opponentPoints,chenPointWinRate,chenGameWinRate,observedRallies,expectedPoints,missingRallyRows,inferredWinners,totalShots,avgRallyLength,narrative,top_chen_reason,top_chen_reason_pct,top_opponent_reason,top_opponent_reason_pct
+chou_tien_chen,Chou Tien Chen,2,4,4,0,83,66,55.7,100.0,149,152,3,6,1678,11.26,"Chen Long controlled the Chou matchup: 4–0 in games, with his most common scoring pattern being Winner (36.2%).",Winner,36.2,Opponent Winner,36.5
+viktor_axelsen,Viktor Axelsen,1,3,1,2,52,55,48.6,33.3,107,107,0,16,910,8.5,"Against Axelsen, the story flips: Chen Long won only 1 of 3 games, and the opponent's top point pattern was Opponent Winner (39.6%).",Opponent Out,44.2,Opponent Winner,39.6
